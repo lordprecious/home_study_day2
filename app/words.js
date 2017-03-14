@@ -9,8 +9,7 @@ module.exports = {
         if(newWord !== '') {
           if(sortedWords.hasOwnProperty(newWord)) {  //this condition checks if the words repeat;
             sortedWords[newWord]++;
-          }
-          else {
+          } else {
             sortedWords[newWord] = 1;
           }
         }
